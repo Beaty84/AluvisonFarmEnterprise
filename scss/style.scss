@@ -33,9 +33,9 @@ $color-4: #dcd691;
     transition:         all $transition ease;
 }
 
-html {
+
 	// overflow-x: hidden;
-}
+
 body {
 	font-family: $font-primary;
 	background: $white;
@@ -781,7 +781,7 @@ h1, h2, h3, h4, h5,
 		font-weight: 500;
 		font-size: 18px;
 		color: rgba(0,0,0,.5);
-		a{}
+	
 	}
 }
 
@@ -1012,7 +1012,7 @@ h1, h2, h3, h4, h5,
 		background: transparent;
 		padding: 0 15px;
 	}
-	button,.form-control{;
+	button,.form-control{
 		height: 40px !important;
 		text-align: center;
 		border: 1px solid rgba(0,0,0,.1) !important;
@@ -1075,8 +1075,7 @@ h1, h2, h3, h4, h5,
 
 //CART
 .ftco-cart{
-	.input-group{
-	}
+	
 	button{
 		i{
 			color: $primary;
@@ -1090,7 +1089,7 @@ h1, h2, h3, h4, h5,
 		background: transparent;
 		padding: 16px 20px;
 	}
-	button,.form-control{;
+	button,.form-control{
 		height: 54px !important;
 		text-align: center;
 		bordeR: 1px solid rgba(0,0,0,.05) !important;
@@ -1464,16 +1463,14 @@ textarea.form-control {
 
 
 .about-author{
-	img{
-	}
+	
+	
 	.desc{
 		h3{
 			font-size: 24px;
 		}
 	}
-	.bio{
-
-	}
+	
 }
 
 
@@ -1883,6 +1880,7 @@ textarea.form-control {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -webkit-transition: all 0.3s ease-out; 
   -moz-transition: all 0.3s ease-out; 
@@ -1921,9 +1919,7 @@ textarea.form-control {
 }
 .ftco-counter {
 	padding: 5em 0;
-	.icon{
-		span{
-		}
+	
 	}
 	.text{
 		strong.number{
@@ -1955,7 +1951,7 @@ textarea.form-control {
 		text-transform: uppercase;
 		letter-spacing: .1em;
 	}
-}
+
 
 //blocks 
 .block-20 {
@@ -2034,9 +2030,9 @@ textarea.form-control {
 				line-height: 1.5;
 				margin-bottom: 15px;
 			}
-			span{
+			
 				// color: rgba($white, .7);
-			}
+		
 			.icon, .text {
 				display: table-cell;
 				vertical-align: top;
@@ -2063,9 +2059,8 @@ textarea.form-control {
 			.one-third {
 				width: 50%;
 				background: $white;
-				&:first-child {
 					// padding-left: 0;
-				}
+				
 				&:last-child {
 					border-right: none;
 					border-left: 1px solid rgba(0,0,0,.1);
@@ -2111,13 +2106,8 @@ textarea.form-control {
 					right: 10px;
 				}
 			}
-			.textfield-search, .select-wrap {
-			}
-			.textfield-search {
-				input {
-
-				}
-			}
+			
+			
 			.select-wrap {
 				position: relative;
 				select {
@@ -2181,7 +2171,7 @@ textarea.form-control {
 			a{
 				color: lighten($black,10%);
 			}
-			span{}
+		
 		}
 	}
 	.info{
@@ -2198,8 +2188,7 @@ textarea.form-control {
 		box-shadow: none!important;
 		font-size: 15px;
 	}
-	#map {
-	}
+
 }
 
 
